@@ -1,6 +1,6 @@
 body{
     font-family:'Poppins', 'Times', 'sans-serif';
-    color: ;
+    color:#8CA0A1 ;
 }
 
 ul {
@@ -38,5 +38,13 @@ ul {
   position: absolute;
   bottom: 80px;
   left: 16px;
+  font-size: 56px;
 }
-
+.volunteer{
+ display: grid;
+}
+.support-img{
+  float: right;
+  border-radius: 27px;
+  margin-left: 0px;
+}
