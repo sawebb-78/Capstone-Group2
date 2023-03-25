@@ -26,18 +26,42 @@
         
     
     }
+    header img {
+        float: left;
+        
+    }
+    #header_img{
+        background-image: url(../Images/puppies_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 880px;
+        
+    }
     h1{
         font-size: 56px;
+        position: absolute;
+        top: 950px;
+        color: white;
+
         
     }
     .row{
-        width: 470px;
+        width: 400px;
         display: inline-block;
         padding: 25px;
         box-sizing:border-box;
-        vertical-align: top;
+        vertical-align: center;
         text-align: center;
     }
     footer{
         background-color: #0B334A;
+    }
+    .footer_badges{
+        display: inline-block;
+    }
+    #footer_images{
+        text-align: right;
+    }
+    footer h2{
+        text-align: center;
     }
