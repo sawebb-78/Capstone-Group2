@@ -20,6 +20,13 @@
         display: inline-block;
         padding: 25px 25px 30px 30px;
     }
+    nav li:hover {
+        background-color: #8CA0A1;
+        color: white;
+    }
+    nav a:hover {
+        color: white;
+    }
     nav a{
         text-decoration: none;
         color: grey;
@@ -64,4 +71,7 @@
     }
     footer h2{
         text-align: center;
+    }
+    .contact-info{
+        top: 800px;
     }
