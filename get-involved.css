@@ -1,6 +1,6 @@
 body{
     font-family:'Poppins', 'Times', 'sans-serif';
-    color: #8CA0A1;
+    color: ;
 }
 
 ul {
@@ -27,3 +27,16 @@ ul {
   li a:hover {
     background-color: #8CA0A1;
   }
+.header{
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.center {
+  position: absolute;
+  bottom: 80px;
+  left: 16px;
+}
+
