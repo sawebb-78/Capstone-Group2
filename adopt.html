@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <img src="Images/Motley logo.jpg" alt="logo">
+        <img src="Images/logo.png" alt="logo">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a> </li>
@@ -23,7 +23,7 @@
     </header>
 
     <div>
-        <video autoplay muted width="1920" height= "1080" id="myVideo">
+        <video autoplay muted  width="1244px" height= "518px" id="myVideo" loop>
             <source src="Images/Adopt Video.mp4" type="video/mp4"> </video>
 
         <h1>Adopt</h1>
@@ -31,13 +31,13 @@
     </div>
 
 
-<div id="looking-for-home-section ">
+<h2 id="looking-for-home-title">Looking For a Home</h2>
 
-    <h2 id="looking-for-home-title">Looking For a Home</h2>
+<div id="looking-for-home-section ">
 
     <div id="petbox-1" class="petbox">
         <a href="https://www.petfinder.com/cat/angry-orchard-59039350/wa/redmond/motley-zoo-animal-rescue-wa433/?referrer_id=0f31ba3d-937a-471a-9902-6d50761079ab" target="_blank" id="petlink-1"> 
-            <img src="Images/cat 1.jpeg" alt="Photo of tabby cat sitting on by windowsill looking at camera" srcset=""  id="petimg-1" > </a>
+            <img src="Images/cat 1.jpeg" width="325px" height= "355px" alt="Photo of tabby cat sitting on by windowsill looking at camera" srcset=""  id="petimg-1" > </a>
         <p class="pet-name"> Pet Name: <span id="petname-1"> Angry Orchard </span> </p>
         <p class="breed"> Breed: <span id="petbreed-1"> Domestic Short Hair </span> </p>
 
@@ -45,19 +45,20 @@
 
     <div id="petbox-2" class="petbox">
         <a href="https://www.petfinder.com/dog/amy-santiago-51501999/wa/redmond/motley-zoo-animal-rescue-wa433/?referrer_id=0f31ba3d-937a-471a-9902-6d50761079ab" target="_blank" id="petlink-2"> 
-            <img src="Images/dog 1.jpeg" alt="" srcset="" id="petimg-2"> </a>
+            <img src="Images/dog 1.jpeg" width="325px" height= "355px"  alt="Photo of golden lab staring away from camera" srcset="" id="petimg-2"> </a>
         <p class="pet-name"> Pet Name: <span id="petname-2"> Amy Santiago </span> </p>
         <p class="breed"> Breed: <span id="petbreed-2"> Labrador Retriever </span> </p>
     </div>
 
     <div id="petbox-3" class="petbox">
         <a href="https://www.petfinder.com/dog/cammie-miko-59296910/wa/redmond/motley-zoo-animal-rescue-wa433/?referrer_id=0f31ba3d-937a-471a-9902-6d50761079ab" target="_blank" id="petlink-3"> 
-            <img src="Images/puppy 1.jpeg" alt="" srcset="" id="petimg-3"> </a>
+            <img src="Images/puppy 1.jpeg" width="325px" height= "355px"  alt="Photo of puppy on blankets staring at camera with one ear askew" srcset="" id="petimg-3"> </a>
         <p class="pet-name"> Pet Name: <span id="petname-3"> Cammie Miko </span> </p>
         <p class="breed"> Breed: <span id="petbreed-3"> Terrier </span> </p>
     </div>
 
-    <button id="see-more-button"> See More </button> <!-- See more button links to Petfinder page:
+    <button id="see-more-button" onclick="window.location.href='https://www.petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=WA433&sort%5B0%5D=recently_added'"> See More </button> 
+    <!-- See more button links to Petfinder page:
     https://www.petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=WA433&sort%5B0%5D=recently_added
     -->
 
@@ -100,7 +101,8 @@
         <br>
         <textarea id="comments" name="comments">
         </textarea>
-        
+        <br>
+        <input type='submit' value='Submit'>
     </form>
 
 

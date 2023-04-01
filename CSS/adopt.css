@@ -1,2 +1,94 @@
 /* THIS IS THE CSS PAGE FOR THE 
             ADOPT.HTML */
+
+*{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8CA0A1;
+    font-family:'Poppins', 'Times', 'sans-serif';
+    color:#8CA0A1 ;
+}
+header{
+    position: absolute;
+    width: 100vw;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+    background: #C5E7E7;
+    
+}
+
+header img{
+    position: absolute;
+    width: 298px;
+    height: 74px;
+    float: left;
+
+}
+
+
+nav{
+    background-color: #C5E7E7;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C5E7E7;
+    }
+nav ul{
+    list-style-type: none;
+    text-align:  right;
+    float: right;
+}
+nav li{
+    display: inline-block;
+    padding: 25px 25px 30px 30px;
+}
+nav li:hover {
+    background-color: #8CA0A1;
+    color: white;
+}
+nav a:hover {
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    
+    
+
+}
+
+#myVideo{
+    position: relative;
+    left: -26vw;
+    top: 100px;
+    padding: 5px;
+    min-width: 100vw;
+
+}
+
+h1{
+    font-size: 96px;
+    color: white;
+
+    
+}
+h2{
+    font-size: 46px;
+
+}
+
+
+#looking-for-home-section{
+    display:inline-flex;
+}
+
+.petbox{
+    width: 325px;
+    height: 355px;
+    border-radius: 27px;
+
+}
