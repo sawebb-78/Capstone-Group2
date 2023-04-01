@@ -86,9 +86,13 @@ h2{
     display:inline-flex;
 }
 
-.petbox{
+.petimg{
     width: 325px;
     height: 355px;
     border-radius: 27px;
+
+}
+
+.petbox:hover{
 
 }
