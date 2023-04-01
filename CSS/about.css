@@ -42,6 +42,7 @@
         text-decoration: none;
         color: grey;
         
+        
     
     }
     header img {
@@ -83,17 +84,32 @@
     .images_corners_right{
         display: flex;
         float: left;
-        border-radius: 50px;
+        overflow: hidden;
+        border-radius: 25px;
         padding-left: 200px;
         padding-top: 100px;
 
     }
+    .Round_tops{
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .Round_tops_our_team{
+        overflow: hidden;
+        border-radius: 25px;
+    }
     .images_corners_left{
         display: flex;
         float: right;
-        border-radius: 50px;
+        overflow: hidden;
+        border-radius: 25px;
         padding-right: 200px;
         padding-top: 100px;
+    }
+    .Our_team{
+    width: 1200px;
+    padding-left: 120px;
+    margin-right: 220px;
     }
     footer{
         background-color: #0B334A;
