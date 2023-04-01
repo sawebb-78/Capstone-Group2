@@ -2,16 +2,27 @@
     ABOUT US.HTML  */
 
     *{
-        margin: 0;
-        padding: 0;
+
         font-size: 20px;
         line-height: 1.5;
         color: #8CA0A1;
+        font-family:'Poppins', 'Times', 'sans-serif';
+        color:#8CA0A1 ;
         
+    }
+    main{
+        text-align: center;
     }
     nav{
         background-color: #C5E7E7;
     }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #C5E7E7;
+        }
     nav ul{
         list-style-type: none;
         text-align:  right;
@@ -45,20 +56,44 @@
         
     }
     h1{
-        font-size: 56px;
+        font-size: 96px;
         position: absolute;
-        top: 950px;
+        top: 650px;
         color: white;
 
         
     }
+    h2{
+        font-size: 46px;
+
+    }
     .row{
-        width: 400px;
+        width: 600px;
         display: inline-block;
-        padding: 25px;
         box-sizing:border-box;
-        vertical-align: center;
-        text-align: center;
+        vertical-align:middle;
+        text-align:justify;
+        padding-left:10px ;
+        padding-right:10px ;
+        top: 100px;
+        
+        
+        
+    }
+    .images_corners_right{
+        display: flex;
+        float: left;
+        border-radius: 50px;
+        padding-left: 200px;
+        padding-top: 100px;
+
+    }
+    .images_corners_left{
+        display: flex;
+        float: right;
+        border-radius: 50px;
+        padding-right: 200px;
+        padding-top: 100px;
     }
     footer{
         background-color: #0B334A;
@@ -71,7 +106,25 @@
     }
     footer h2{
         text-align: center;
+        font-size: 46px;
+        color: white;
     }
     .contact-info{
         top: 800px;
     }
+    
+.botton{
+    text-align: center;
+}
+    .click{
+        background-color: #D18A71;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+        font-family:'Poppins';
+        }
