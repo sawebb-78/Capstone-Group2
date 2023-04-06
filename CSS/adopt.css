@@ -151,10 +151,47 @@ img {
 }
 
 
-
-
-
-
+.footer{
+    background-color: #0B334A;
+  }
+  .footer h1{
+    font-size: 46px;
+  }
+  .footer-header{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  }
+  .footer-info{
+    padding-left: 20px;
+  }
+  .footer-logos{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .logo-1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content:right;
+    padding-right: 10px;
+  }
+  
+  .logo-2{
+    display: flex;
+    width: 100px;
+    justify-content: flex-end;
+  }
+  .contact-info{
+    font-weight: lighter;
+    display: flex;
+    justify-content: left;
+  }
+  .fav{
+    color: aliceblue;
+  }
 
 /* this media querry is for video to not play on mobile devices. 
 Replaces video with thumbnail image. 
